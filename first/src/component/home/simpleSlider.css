@@ -1,0 +1,98 @@
+
+
+.swiper {
+    /* margin: 0px 50px; */
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+  
+}
+
+.swiper-slide {
+    width: 800px;
+    height: 450px;
+
+}
+
+/* .swiper-slide .profile h1{
+    color: #FFF;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+
+} */
+
+.swiper-slide .profileTitreImage{
+    margin: 20px;
+
+}
+
+.swiper-slide .profileContent{
+    width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: #0EB072;
+    box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.swiper-slide .profileTitreImage .profileTitre h2{
+    color: #000;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.swiper-slide .profileTitreImage .profileTitre p{
+    color: #555;
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.swiper-slide .profileTitreImage .profileImage img{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.swiper-slide .profileTextBtn{
+    margin: 0;
+
+}
+
+.swiper-slide .profileTextBtn .profileText{
+    color: #000;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+.swiper-slide .profileTextBtn .profileBtn button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    background: transparent;    
+    color: #000;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.swiper-slide .profileBtn button:hover{
+    background: transparent;
+    color: white;
+    border: 2px solid #fff;
+}
+

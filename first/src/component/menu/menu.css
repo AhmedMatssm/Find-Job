@@ -1,0 +1,62 @@
+
+
+.dashMenu{
+    width: 20%;
+    height: 800px;
+    background-color: #0EB07D;
+
+}
+
+.dashMenu h1{
+    text-align: center;
+    color: #FFF;
+    font-family: 'Sometype Mono', monospace;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000;
+}
+
+.dashMenu .dashMenuList{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+.dashMenu .dashMenuList .admin .link , .logOut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+    text-decoration: none;
+    
+}
+
+
+.dashMenu .dashMenuList .admin .link span, .logOut span{
+    font-size: 24px;
+    color: #000;
+    margin-right: 10px;
+    
+}
+
+.dashMenu .dashMenuList .admin .link p , .logOut p{
+    font-size: 24px;
+    color: #000;
+    
+}
+
+
+.dashMenu .dashMenuList .logOut {
+    margin-top: 120px;
+    border-top: 1px solid #000;
+    
+}
+
+.dashMenu .dashMenuList .admin:hover , .logOut:hover{
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+}

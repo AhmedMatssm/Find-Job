@@ -1,0 +1,16 @@
+.bodyTrash{
+    width: 100%;
+    height: 900px;
+    background-color: #0EB07D;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.contentTrash{
+    width: 80%;
+    height: 800px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 20px;
+}

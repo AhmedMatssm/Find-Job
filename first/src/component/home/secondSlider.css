@@ -1,0 +1,140 @@
+/* #app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} */
+
+.swiper {
+    width: 100%;
+    /* padding: 50px; */
+}
+
+.entrContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entrOne{
+    position: relative;
+    width: 590px;
+    height: 490px;
+    background-color: #0E9880;
+    margin: 15px;
+
+
+}
+
+.entrOne .entrBackground img{
+    width: 589px;
+    height: 159px;
+    background-size: cover;
+    margin-bottom: 130px;
+    border: 1px solid #000 ;
+
+}
+
+.entrOne .entrImage{
+    position: absolute;
+    top: calc(159px / 2);
+    left: 0;
+    margin-left: 30px;
+    
+}
+
+.entrOne .entrImage img{
+    width: 153px;
+    height: 153px;
+    border: 2px solid #000;
+
+}
+
+.entrOne .entrImage h3{
+    color: #FFF;
+    font-family: Arial;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+
+}
+
+.iconText .iconTextOne , .iconTextTwo ,.iconTextThree{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 10px 30px;
+
+}
+
+.iconText .iconTextOne span , .iconTextTwo span , .iconTextThree span{
+    color: #FFF;
+    font-size: 25px;
+    margin: 0 10px 0 0;
+    padding: 0;
+
+}
+
+.iconText .iconTextOne P , .iconTextTwo p , .iconTextThree p{
+    color: #FFF;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 ;
+    padding: 0;
+
+}
+
+.offreBtn{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+}
+
+.offreBtn span{
+    color: #FFF;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.offreBtn button{
+    width: 103px;
+    height: 26.35px;
+    background-color: #0E9880;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+.entreprise .entrCircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entreprise .entrCircle span{
+    font-size: 40px;
+    color: #D9D9D9;
+    margin: 5px;
+}
+
+.offreBtn button:hover{
+    background-color: #FFF;
+    color: #000;
+}
+

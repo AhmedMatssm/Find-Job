@@ -1,0 +1,146 @@
+
+.contact{
+    width: 100%;
+    height: 800px;
+    background-color: #f5efef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation{
+    width: 100%;
+    height: 100px;
+}
+
+.contact .contactContent{
+    width: 500px;
+    height: 550px;
+    background-color: #fff;
+    box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contactContent h1{
+    text-align: center;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 50px;
+    
+}
+
+.contactContent form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactContent .name{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.contactContent .name input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+
+    background: #FFF;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+
+.contactContent .name label{
+    color: #000;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.contactContent .email{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.contactContent .email input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+
+    background: #FFF;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+
+.contactContent .email label{
+    color: #000;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+
+.contactContent .message{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.contactContent .message textarea{
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+
+    background: #FFF;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+
+.contactContent .message label{
+    color: #000;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+
+.contactContent input[type='submit']{
+        width: 130px;
+        height: 45px;
+        border-radius: 10px;
+        border: 1px solid #000;
+        background: #FFF;
+        color: #000;
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.5s ease;
+}
+
+
+.contactContent input[type='submit']:hover{
+        box-shadow: 4px 4px 8px 1px #cacaca inset;
+}

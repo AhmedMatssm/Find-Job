@@ -1,0 +1,81 @@
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: #0EB05C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+}
+
+.navLogo{
+    color: #FFF;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.navList ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navList ul li{
+    list-style: none;
+    position: relative;
+}
+
+.navList ul li .a{
+    text-decoration: none;
+    color: #FFF !important;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    transition: ease-out 0.1s;
+    
+}
+
+
+.nav .navBtn{
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav .navBtn .navBtnFirst, .navBtnSecond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 1s;
+}
+
+.nav .navBtn .navBtnFirst:hover, .navBtnSecond:hover{
+    border: 2px solid #ffffff;
+    box-shadow: 4px 4px 4px #000000 inset ;
+}
+
+.navList .a:hover{
+    color: #000000;
+    border-bottom: 2px solid #ffffff;
+    padding: 5px 10px;
+}
+
+
+
+
+
+
+
